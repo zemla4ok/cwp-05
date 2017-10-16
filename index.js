@@ -1,11 +1,13 @@
 const http = require('http');
-
+const fs = require('fs');
 const articles = require("./articles.json");
+const read = require('./readAll.js');
 const hostname = '127.0.0.1';
 const port = 3000;
 
 const handlers = {
-    'api/articles/readall': readAll()
+    '/api/articles/readall': read.readAll,
+    '/api/articles/read' : 
 }
 
 const server = http.createServer((req, res) => {
@@ -27,7 +29,7 @@ const server = http.createServer((req, res) => {
     })
 });
 
-function parseBodyJson(rec, cb) {
+function parseBodyJson(req, cb) {
     let body = [];
     req.on('data', (chunk) => {
         body.push(chunk);
@@ -47,7 +49,8 @@ function changeArticles() {
 }
 
 function getHandler(url) {
-    return handlers[url] || notFound();
+    console.log(url);
+    return handlers[url] || notFound;
 }
 
 function notFound(req, res, payload, cb) {
