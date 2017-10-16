@@ -1,16 +1,20 @@
 const http = require('http');
 const fs = require('fs');
+
 const articles = require("./articles.json");
 const readAll = require('./readAll.js');
 const read = require('./read.js')
 const createArticle = require('./createArticle.js');
+const updateArticle = require('./updateArticle.js');
+
 const hostname = '127.0.0.1';
 const port = 3000;
 
 const handlers = {
     '/api/articles/readall': readAll.readAll,
     '/api/articles/read' : read.read,
-    '/api/articles/create' : createArticle.createArticle
+    '/api/articles/create' : createArticle.createArticle,
+    '/api/articles/update' : updateArticle.updateArticle
 }
 
 const server = http.createServer((req, res) => {
