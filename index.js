@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
             }
             res.statusCode=200;
             res.setHeader('Content-Type', 'application/json');
-            ChangeArticles();
+            changeArticles();
             res.end(JSON.stringify(result));
         })
     })
@@ -35,6 +35,10 @@ function parseBodyJson(rec, cb) {
         }
         cb(null, params);
     })
+}
+function changeArticles() {
+    const file = fs.createWriteStream('articles.json');
+    file.write(JSON.stringify(articles));
 }
 function getHandler(url) {
 
