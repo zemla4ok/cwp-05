@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7bf643-c0c3-4e94-aa51-d9cf31a440ad" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/articles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/articles.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,21 +20,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
-              <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+            <state relative-caret-position="-9">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles.js">
+      <file leaf-file-name="log.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articles.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -53,7 +67,9 @@
       <list>
         <option value="$PROJECT_DIR$/titles.json" />
         <option value="$PROJECT_DIR$/articles.js" />
+        <option value="$PROJECT_DIR$/articles.json" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/log.js" />
       </list>
     </option>
   </component>
@@ -140,12 +156,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508132067389</updated>
-      <workItem from="1508132069879" duration="7839000" />
+      <workItem from="1508132069879" duration="9338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7839000" />
+    <option name="totallyTimeSpent" value="9338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -191,15 +207,31 @@
     <entry file="file://$PROJECT_DIR$/articles.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <caret line="41" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
-          <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
+        <state relative-caret-position="-9">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
